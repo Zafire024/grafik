@@ -12,9 +12,6 @@ pencere = tk.Tk()
 pencere.title("Basit Tkinter Uygulaması")
 pencere.geometry("300x150")
 
-pencere2 = tk.Tk()
-pencere2.title("Basit Tkinter Uygulaması")
-pencere2.geometry("300x150")
 
 etiket = tk.Label(pencere, text="Metin girin:")
 etiket.pack(pady=5)
