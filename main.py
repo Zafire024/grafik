@@ -4,14 +4,13 @@ from tkinter import messagebox
 def kaydet():
     veri = entry.get()
     if veri.strip():
-        messagebox.showinfo("Yaşınız", f"Yaşınız: {veri}")
+        messagebox.showinfo("Veri", f"Veriniz: {veri}")
     else:
         messagebox.showwarning("Uyarı", "Boş bırakmayın!")
 
 pencere = tk.Tk()
 pencere.title("Basit Tkinter Uygulaması")
 pencere.geometry("300x150")
-
 
 etiket = tk.Label(pencere, text="Metin girin:")
 etiket.pack(pady=5)
